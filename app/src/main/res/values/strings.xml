@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Panaderia Brotto</string>
+
+    <string name="btnInicioSesion">INICIAR SESIÓN</string>
+    <string name="btnRegistro">REGISTRO</string>
+
+    <string name="txtInicioSesion">Inicio de Sesión</string>
+    <string name="txtCorreoElectronico">Correo Electrónico</string>
+    <string name="txtContraseña">Contraseña</string>
+    <string name="btnCrearCuenta">Crear Cuenta</string>
+    <string name="btnRecContaseña">Recuperar contraseña</string>
+
+    <string name="txtRegistro">Registro</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtFechaDeNacimiento">Fecha de Nacimiento</string>
+    <string name="txtConfirmarContraseña">Confirmar Contraseña</string>
+    <string name="btnRegistrarse">REGISTRARSE</string>
+
+    <string name="txtPerfil">Perfil</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnCerrarSesión">CERRAR SESIÓN</string>
+
+    <string name="txtCarro">Carro</string>
+    <string name="btnRealizarCompra">REALIZAR COMPRA</string>
+
+    <string name="txtBrotto">BROTTO</string>
+    <string name="txtGalletas">Galletas</string>
+    <string name="txtPanDulce">Pan Dulce</string>
+    <string name="txtPanSalado">Pan Salado</string>
+    <string name="txtNavideño">Navideño</string>
+
+    <string name="txtCantidad">Cantidad</string>
+
+    <string name="txtConcha">Concha</string>
+    <string name="txtCanela">Canela</string>
+    <string name="txtChocochips">Chocochips</string>
+    <string name="txtPolvorón">Polvorón</string>
+    <string name="txtAvena">Avena</string>
+    <string name="txtBarraIntegral">BarraIntegral</string>
+    <string name="txtPandeCaja">Pan de Caja</string>
+    <string name="txtPanHamburguesas">Pan Hamburguesas</string>
+    <string name="txt">Pan Salados</string>
+    <string name="btnAgregarCarrito">Agregar al Carrito</string>
+    <string name="txtIntegral">Integral</string>
+
+    <string name="txtUbicación">Ubicación</string>
+
+    <string name="txtEntrega">Entrega</string>
+
+    <string name="txtTarjeta">Tarjeta</string>
+    <string name="title_activity_bottom_nav_menu">Bottom_Nav_Menu</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Carro</string>
+    <string name="title_notifications">Cuenta</string>
+    <string name="title_activity_menu">Menu</string>
+</resources>

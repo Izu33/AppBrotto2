@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217355098537",
+    "project_id": "panaderia-brotto-891d4",
+    "storage_bucket": "panaderia-brotto-891d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217355098537:android:104147a71aacae95b1ccb8",
+        "android_client_info": {
+          "package_name": "com.ana.panaderiabrotto_41"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY9uYn5kN80SkA-qHWa1jsffwKqa35k0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

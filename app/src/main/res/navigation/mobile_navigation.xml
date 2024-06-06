@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ana.panaderiabrotto_41.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_cookies"
+            app:destination="@id/cookies" />
+        <action
+            android:id="@+id/action_navigation_home_to_sweetBread"
+            app:destination="@id/sweetBread" />
+        <action
+            android:id="@+id/action_navigation_home_to_breadSalad"
+            app:destination="@id/breadSalad" />
+        <action
+            android:id="@+id/action_navigation_home_to_christmas"
+            app:destination="@id/christmas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.ana.panaderiabrotto_41.ui.car.CarFragment"
+        tools:layout="@layout/fragment_car" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.ana.panaderiabrotto_41.ui.perfil.PerfilFragment"
+        tools:layout="@layout/fragment_perfil">
+        <action
+            android:id="@+id/action_navigation_notifications_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/cookies"
+        android:name="com.ana.panaderiabrotto_41.ui.cookies.Cookies"
+        tools:layout="@layout/fragment_cookies" >
+        <action
+            android:id="@+id/action_cookies_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/sweetBread"
+        android:name="com.ana.panaderiabrotto_41.ui.sweetBread.SweetBread"
+        tools:layout="@layout/fragment_sweet_bread" />
+    <fragment
+        android:id="@+id/breadSalad"
+        android:name="com.ana.panaderiabrotto_41.ui.breadSalad.BreadSalad" >
+        <action
+            android:id="@+id/action_breadSalad_to_descriptionBreadSalad"
+            app:destination="@id/descriptionBreadSalad" />
+    </fragment>
+    <fragment
+        android:id="@+id/christmas"
+        android:name="com.ana.panaderiabrotto_41.ui.christmas.Christmas"
+        tools:layout="@layout/fragment_christmas" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.ana.panaderiabrotto_41.MainActivity"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/descriptionBreadSalad"
+        android:name="com.ana.panaderiabrotto_41.DescriptionBreadSalad"
+        tools:layout="@layout/fragment_description_bread_salad" />
+</navigation>
